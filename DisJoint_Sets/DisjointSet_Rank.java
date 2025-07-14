@@ -1,7 +1,7 @@
 // We can find if two elements are in in the same set or not ? using simple DFS and BFS --> time comp. O(V+E)
 // Thus we try to reduce the Time complexity using disjoint_set data Structure in a O(1) : constant time complexity
 // The optimization is due to the concept of Path compresion --> find_parent()
-// The the find    Union method using Rank or Size.
+// The the find  Union method using Rank or Size.
 // steps two array 1) parent containing the immediate Parent default value is : number it self
 // 2) Rank basically denote the size of the subtree ; height of the top node deafult value is : 0
 // Rank is not change while path compression due to  ovious reasons.
